@@ -12,7 +12,7 @@ export class Header extends Component {
   createTemplate() {
     return `<header class="header">
             <div class="header__div">
-                <img class="../src/pokemon-logo-CSTyfZa-.svg" alt="Pokemon logo"/>
+                <img class="https://upload.wikimedia.org/wikipedia/commons/9/98/International_Pok%C3%A9mon_logo.svg" alt="Pokemon logo"/>
                 <h1 class="header__h1">Gotta Catch 'Em All!</h1>
                
             </div>
