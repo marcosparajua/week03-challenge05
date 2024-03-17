@@ -1,7 +1,4 @@
-/* eslint-disable no-unused-vars */
-
-import { listPokemon, pokemon } from './interface/interface';
-
+import { listPokemon } from './interface/interface';
 export const fetchPokemon = () => {
   const urlPokemon: string = 'https://pokeapi.co/api/v2/pokemon/';
   const pokeBox: HTMLElement = document.querySelector('#poke-box')!;
